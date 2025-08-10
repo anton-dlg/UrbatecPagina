@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-secondary text-secondary;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-primary text-primary;
+}
+
+.h1 {
+  @apply text-[40px] xl:text-[54px] uppercase font-black leading-[1.1];
+}
+
+.h2 {
+  @apply text-[36px] leading-[1.3] xl:text-[46px] xl:leading-[56px] capitalize font-bold;
+}
+
+.h3 {
+  @apply font-primary font-bold text-3xl;
+}
+
+.h4 {
+  @apply text-2xl font-semibold;
+}
+
+/* Elimina los colores azules por defecto de Swiper */
+.swiper-button-prev,
+.swiper-button-next {
+  color: #343849 !important; /* Tailwind 'gray-700' */
+  width: 0.3rem !important; /* más pequeñas */
+  height: 0.3rem !important;
+}
+
+.swiper-pagination-progressbar-fill {
+  background: #333; /* o tu color de marca */
+}
+.swiper-pagination-bullet {
+  width: 20px;          /* Más alargadas */
+  height: 4px;          /* Altura pequeña como barra */
+  background: #ccc;     /* Color gris claro */
+  opacity: 1;           /* Visibles todas */
+  border-radius: 2px;   /* Bordes redondeados */
+  margin: 0 4px !important; /* Separación entre barras */
+  transition: background 0.3s;
+}
+
+.swiper-pagination-bullet-active {
+  background: #333;     /* Color activo gris oscuro */
+}
+
+/* globals.css o tailwind.css */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;    /* Firefox */
+}
