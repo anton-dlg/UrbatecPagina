@@ -27,7 +27,7 @@ const About = () => {
               </h2>
               <p className="mb-11">
                 Urbatec es una empresa mexicana con más de 46 años de experiencia en el sector de la construcción, fundada en 1979. 
-                Nos especializamos en soluciones integrales de construcción, con un enfoque particular en la industria metal-mecánica. <br />
+                Nos especializamos en soluciones integrales de construcción, con un enfoque particular en la industria de la construcción, obra civil y estructuras en general. <br />
                 A lo largo de nuestra trayectoria, hemos desarrollado una sólida reputación como un socio confiable para la ejecución de proyectos de alta
                 complejidad, tanto en el sector público como privado.
               </p>
