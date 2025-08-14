@@ -30,8 +30,7 @@ const Testimonials = () => {
               telecomunicaciones, manteniendo siempre un
               compromiso con la excelencia y la seguridad.<br />
               <b>Nuestra Visión</b><br />
-              Ser líderes en la industria de la construcción y metal-
-              mecánica en México, destacándonos por nuestra
+              Ser líderes en la industria de la construcción en México, destacándonos por nuestra
               innovación, eficiencia y cumplimiento de los más altos
               estándares de calidad, contribuyendo al desarrollo del país.
             </p>
